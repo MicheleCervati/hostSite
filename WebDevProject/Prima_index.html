@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Prima_style.css">
+    
+    <link rel="icon" type="image/png" href="/WebDevProject/img/Logo.jpeg">
+    <title> hamburGo.it </title>  <!-- Viene visualizzato in alto, sulla pagine web -->
+</head>
+<body>
+
+  <header>
+    <h1> Ordina ora il tuo Hamburger! </h1>  <!-- Titolo -->
+</header>
+
+<h4> Prima di effettuare il pagamento </h4>
+<button id="log" class="login"> LOG IN  </button>
+<button id="registrazione" class="registrazione"> Registrazione </button>  <!-- collegamento con la pagina Prima_script.js -->
+
+<br>
+<div class="composizione">  <!-- animazione con css -->
+<img src="img/PaneSopra.png" alt="Pane sopra">
+<br>
+<img src="img/Bacon.png" alt="Bacon">
+<br>
+<img src="img/Pomodoro.png" alt="Pomodoro">
+<br>
+<img src="img/Carne.png" alt="Carne">
+<br>
+<img src="img/Insalata.png" alt="Insalata">
+<br>
+<img src="img/PaneSotto.png" alt="PaneSotto">
+<br>
+</div>
+
+<button class="ordina"> <a href="/WebDevProject/ItemList.html"> VISUALIZZA I NOSTRI PRODOTTI! </a></button>  <!-- premendo, si arriva alla pagina ItemList.html -->
+
+ <!-- alcune informazioni che si trovano su tutti i siti web di e-commerce, con collegementi (es.pagina Instagram) -->
+<div class="home">
+    <img src="img/Paninolandia.jpeg" alt="Posizione">
+    <img src="img/Citta.jpeg" alt="Citta">
+    <h2> Dove ci troviamo? </h2>
+    <address>
+        Via dei Panini 13, Paninolandia  
+    </address>
+    <h5> CAP: 62334 </h5>
+</div>
+<div class="home">
+    <img src="img/Contatti.jpg" >
+    <h2> Contatti </h2>
+    <h5> E-mail: panino.hamburger@gmail.com </h5>
+    <h5>Facebook: <a href="https://www.facebook.com/hamburGo_" target="blank">@hamburgo</a></h5>
+    <h5>Instagram: <a href="https://www.instagram.com/hamburGo_" target="blank">@hamburGo</a></h5>
+    <h5>Tel: <a href="tel:+3234546767">323 4546767</a></h5>
+</div>
+<br>
+<img class="logo" src="img/Logo.jpeg" alt="Logo">
+<div class="recensioni">
+    <h2>Lascia una recensione</h2>
+    <textarea id="recensione-input" placeholder="Scrivi qui la tua recensione"></textarea>  <!-- si può scrivere una recensione -->
+    <br>
+    <button onclick="aggiungiRecensione(true)">Invia Recensione</button>  <!-- invia -->
+    <h2>Recensioni</h2>
+    <div id="lista-recensioni">  <!-- Viene salvata nel local storage, rimane e si può visualizzare -->
+    </div>
+</div>
+     <!-- collegamento alle pagine di javascript -->
+    <script src = "Prima_script.js"> </script>
+    <script src = "Prima_recensioni.js"> </script>
+</body>
+</html>

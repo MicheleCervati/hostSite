@@ -1,0 +1,186 @@
+/*per impostare uno stile alla pagina html*/
+.composizione {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f0f0f0;
+}
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 10px 0;
+  text-align: center;
+}
+h1 {
+  margin: 0;
+}
+h4 {
+  margin-left: 40px;
+}
+.container {
+  width: 85%;
+  height: 83%;
+  padding: 20px;
+  border: 1px solid #ff6347 ;
+  background-color: #ffffff;
+  margin: 15px auto; 
+  margin-bottom: 15px auto;
+  border-radius: 10px; 
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+  font-family: Arial, sans-serif; 
+}
+
+input[type="password"], input[type="text"], input[type="submit"] {
+  width: calc(100% - 30px); 
+  padding: 10px;
+  margin: 15px 0; 
+  border: 1px solid #ddd; 
+  border-radius: 5px; 
+  box-sizing: border-box; 
+}
+
+input[type="submit"] {
+  background-color: #ff6347; 
+  color: #ffffff; 
+  border: 1px solid #ff6347; 
+  cursor: pointer; /*il cursore cambia forma*/
+  transition: background-color 0.3s, color 0.3s; 
+}
+.logo
+{
+  border-radius: 5px;
+  width: 200px ;
+  display: block;
+  margin-left:40%;
+  margin-right:40%;
+}
+
+
+.login {
+  margin-left: 40px;
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #ff6347;
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: bold;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+.registrazione {
+  display: block;
+  margin: 10px;
+  display: inline-block;
+  padding: 10px 20px;
+  border-color: #ff6347;
+  color: #ff6347;
+  font-size: 16px;
+  font-weight: bold;
+  border-radius: 5px;
+  border-color: #ff6347;
+  cursor: pointer;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+.home {
+  padding: 20px;
+  background-color: #fff;
+  margin: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin: 40px;
+  text-align: center;
+}
+.home img {
+  max-width: 20%;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  padding: 20px;
+  }
+.composizione {
+  text-align: center;
+  padding: 20px;
+  border-radius: 5px;
+  margin: 40px;
+}
+.composizione img {
+  max-width: 60%;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  transition: 0.5s ease;
+  animation: bounce 2.5s linear infinite;
+  inline-size: 200px;
+}
+/*animazione applicata alle immagini del panino*/
+@keyframes bounce {
+  0%, 100%{
+    transform: transalteX(0);
+  }50%
+  {
+    transform: translateY(-50px);
+  }
+}
+.ordina {
+  margin: 20px;
+  display: inline-block;
+  padding: 10px 20px;
+  border-color: #ff6347;
+  color: #333;
+  font-size: 26px;
+  font-weight: bold;
+  border-radius: 5px;
+  border-color: #333;
+  cursor: pointer;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+  text-align: center;
+  margin-left:40%;
+  margin-right:40%;
+}
+
+.recensioni {
+  margin: 20px 0;
+  margin: 40px;
+}
+
+.recensioni h2 {
+  font-size: 1.5em;
+  margin-bottom: 10px;
+
+}
+
+.recensioni textarea {
+  width: 100%;
+  height: 100px;
+  margin-bottom: 10px;
+  padding: 10px;
+  font-size: 1em;
+  border: 1px solid #ccc;
+  border-radius: 5px; 
+}
+
+.recensioni button {
+  padding: 10px 20px;
+  font-size: 1em;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+
+}
+
+#lista-recensioni {
+  margin-top: 10px;
+  margin: 20px;
+}
+
+#lista-recensioni p {
+  background-color: #f9f9f9;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}

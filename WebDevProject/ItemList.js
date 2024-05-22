@@ -2,7 +2,7 @@ const panini = [ //array di panini
     {
         id: 0,
         nome: "Tomato Classic Burger",
-        img: "/WebDevProject/img/listaProdotti/panino1.png",
+        img: "/img/listaProdotti/panino1.png",
         prezzo: 8,
         tag1: "Lattuga",
         tag2: "Pomodoro",
@@ -11,7 +11,7 @@ const panini = [ //array di panini
     {
         id: 1,
         nome: "Crispy CheeseBurger",
-        img: "/WebDevProject/img/listaProdotti/panino2.png",
+        img: "/img/listaProdotti/panino2.png",
         prezzo: 9,
         tag1: "Bacon",
         tag2: "Cheddar",
@@ -20,7 +20,7 @@ const panini = [ //array di panini
     {
         id: 2,
         nome: "Crispy Spicy Burger",
-        img: "/WebDevProject/img/listaProdotti/panino3.png",
+        img: "/img/listaProdotti/panino3.png",
         prezzo: 9,
         tag1: "Cipolla",
         tag2: "Salsa piccante",
@@ -29,7 +29,7 @@ const panini = [ //array di panini
     {
         id: 3,
         nome: "Veggie Burger",
-        img: "/WebDevProject/img/listaProdotti/panino4.png",
+        img: "/img/listaProdotti/panino4.png",
         prezzo: 7,
         tag1: "Lattuga",
         tag2: "Salsa vegetale",
@@ -38,7 +38,7 @@ const panini = [ //array di panini
     {
         id: 4,
         nome: "Chicken Burger",
-        img: "/WebDevProject/img/listaProdotti/panino5.png",
+        img: "/img/listaProdotti/panino5.png",
         prezzo: 8,
         tag1: "Lattuga",
         tag2: "Pomodoro",
@@ -47,7 +47,7 @@ const panini = [ //array di panini
     {
         id: 5,
         nome: "BBQ Bacon Burger",
-        img: "/WebDevProject/img/listaProdotti/panino6.png",
+        img: "/img/listaProdotti/panino6.png",
         prezzo: 9,
         tag1: "Bacon",
         tag2: "Cipolla",
@@ -56,7 +56,7 @@ const panini = [ //array di panini
     {
         id: 6,
         nome: "Crispy Chicken Burger",
-        img: "/WebDevProject/img/listaProdotti/panino7.png",
+        img: "/img/listaProdotti/panino7.png",
         prezzo: 9,
         tag1: "Bacon",
         tag2: "Lattuga",
@@ -65,7 +65,7 @@ const panini = [ //array di panini
     {
         id: 7,
         nome: "Caprese Burger",
-        img: "/WebDevProject/img/listaProdotti/panino8.png",
+        img: "/img/listaProdotti/panino8.png",
         prezzo: 9,
         tag1: "Pomodoro",
         tag2: "Basilico",
@@ -74,7 +74,7 @@ const panini = [ //array di panini
     {
         id: 8,
         nome: "Avocado Burger",
-        img: "/WebDevProject/img/listaProdotti/panino9.png",
+        img: "/img/listaProdotti/panino9.png",
         prezzo: 8,
         tag1: "Avocado",
         tag2: "Pomodoro",
@@ -83,7 +83,7 @@ const panini = [ //array di panini
     {
         id: 9,
         nome: "Pesto Burger",
-        img: "/WebDevProject/img/listaProdotti/panino10.png",
+        img: "/img/listaProdotti/panino10.png",
         prezzo: 8,
         tag1: "Pesto",
         tag2: "Mozzarella",
@@ -92,7 +92,7 @@ const panini = [ //array di panini
     {
         id: 10,
         nome: "Asian Burger",
-        img: "/WebDevProject/img/listaProdotti/panino11.png",
+        img: "/img/listaProdotti/panino11.png",
         prezzo: 7,
         tag1: "Cavolo",
         tag2: "Cetriolo",
@@ -101,7 +101,7 @@ const panini = [ //array di panini
     {
         id: 11,
         nome: "Sweet Potato Burger",
-        img: "/WebDevProject/img/listaProdotti/panino12.png",
+        img: "/img/listaProdotti/panino12.png",
         prezzo: 9,
         tag1: "Patate dolci",
         tag2: "Lattuga",
@@ -110,7 +110,7 @@ const panini = [ //array di panini
     {
         id: 12,
         nome: "BBQ Chicken Burger",
-        img: "/WebDevProject/img/listaProdotti/panino13.png",
+        img: "/img/listaProdotti/panino13.png",
         prezzo: 9,
         tag1: "Bacon",
         tag2: "Cipolla",
@@ -119,7 +119,7 @@ const panini = [ //array di panini
     {
         id: 13,
         nome: "Rocket Crunch Burger",
-        img: "/WebDevProject/img/listaProdotti/panino14.png",
+        img: "/img/listaProdotti/panino14.png",
         prezzo: 8,
         tag1: "Rucola",
         tag2: "Grana",

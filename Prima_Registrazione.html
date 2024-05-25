@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registrazione</title>
+    <link rel="stylesheet" href="Prima_style.css">
+</head>
+<body>
+    <form class="container">
+            <!-- per inserimento dei dati -->
+        <label>Nome Utente</label>
+        <input type="text"  name="name" placeholder="Nome " required> <!-- required è un attributo e serve per la validazione -->
+        <br>
+        <label>Cognome</label>
+        <input type="text"  placeholder="Cognome " required>
+        <br>
+        <label>E-mail</label>
+        <input type="email"  placeholder="nome.cognome@gmail.com" required>
+        <br>
+        <br>
+        <label>Password</label>
+        <input type="password"   placeholder="password " required>
+        
+        <input type="submit" value="Registrati"> 
+
+        <p> Hai già un account? <a href="Prima_Login.html"> Accedi</a></p> <!-- collegamento alla pagina html Prima_Login.html -->
+    </form>
+
+    <script src = "Prima_reg2.js"> </script> <!-- collegamento alla pagina Javascript Prima_reg2.js -->
+</body>
+</html>
